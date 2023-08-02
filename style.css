@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.allbodymain {
+    background-image: url(https://picsum.photos/id/16/1024/800);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding-right: 60px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+H1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 8px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bar1 {
+    width: 500px;
+    height: 10px;
+    background: linear-gradient(to right,
+            #8ecae6 0%,
+            #8ecae6 70%,
+            white 70%,
+            white 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 16px 16px 10px -5px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.bar2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
+
+
+}
+
+button {
+    color: #8d99ae;
+    background-color: #bde0fe;
+    font-size: 1.2rem;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    margin-top: 20px;
+
+}
+
+.underbar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.underbar img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    border: 3px solid white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    border: 3px solid white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    border: 3px solid white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+    border: 3px solid white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 80%;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 4px;
+}
